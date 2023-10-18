@@ -15,4 +15,4 @@ jobs:
         run: docker build -t my-docker-image .
 
       - name: Run Docker Container
-        run: docker run -it  my-docker-image bal build
+        run: docker run my-docker-image bal build
