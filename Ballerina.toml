@@ -1,0 +1,7 @@
+[package]
+org = "luheerathan"
+name = "test_central_verbose_22010305"
+version = "0.1.0"
+
+[build-options]
+observabilityIncluded = true
